@@ -1,0 +1,27 @@
+{
+  "name": "offline_budget_tracker",
+  "version": "1.0.0",
+  "description": "Offline budget tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbt00001/Offline_Budget_Tracker.git"
+  },
+  "author": "Ben Townsend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbt00001/Offline_Budget_Tracker/issues"
+  },
+  "homepage": "https://github.com/rbt00001/Offline_Budget_Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.1.0",
+    "morgan": "^1.10.0"
+  }
+}
